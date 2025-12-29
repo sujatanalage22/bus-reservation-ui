@@ -1,0 +1,82 @@
+/* Main container */
+.rb-admin-container {
+  min-height: 100vh;
+  background: #f7f7f7;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Header */
+.rb-admin-header {
+  background: #d32f2f;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rb-admin-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.rb-logout {
+  background: white;
+  color: #d32f2f;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rb-logout:hover {
+  background: #fbe9e7;
+}
+
+/* Grid */
+.rb-admin-grid {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* Cards */
+.rb-card {
+  background: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+  border-top: 5px solid #d32f2f;
+}
+
+.rb-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.15);
+}
+
+/* Icons */
+.rb-icon {
+  font-size: 38px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.rb-card h3 {
+  margin: 10px 0 5px;
+  color: #d32f2f;
+  font-size: 18px;
+}
+
+.rb-card p {
+  color: #666;
+  font-size: 14px;
+}

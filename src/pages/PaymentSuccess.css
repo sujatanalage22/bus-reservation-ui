@@ -1,0 +1,78 @@
+.success-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+}
+
+.ticket-card {
+  width: 360px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  padding: 22px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.ticket-header {
+  text-align: center;
+  border-bottom: 2px dashed #ddd;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.ticket-header .check {
+  display: inline-block;
+  background: #22c55e;
+  color: #fff;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.ticket-row span:first-child {
+  color: #6b7280;
+}
+
+.ticket-total {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 2px dashed #ddd;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-actions {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+.ticket-actions button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #dc2626;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ticket-actions button:hover {
+  background: #b91c1c;
+}
+
+.center {
+  text-align: center;
+  margin-top: 60px;
+}

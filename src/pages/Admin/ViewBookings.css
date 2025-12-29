@@ -1,0 +1,50 @@
+.rb-page {
+  padding: 30px;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+
+.rb-title {
+  color: #d32f2f;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.rb-table-wrapper {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.rb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.rb-table thead {
+  background: #d32f2f;
+  color: white;
+}
+
+.rb-table th,
+.rb-table td {
+  padding: 12px 14px;
+  text-align: left;
+}
+
+.rb-table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.rb-table tbody tr:hover {
+  background: #fff3f3;
+}
+
+.rb-empty {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
