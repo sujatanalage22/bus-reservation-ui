@@ -1,25 +1,13 @@
-// import axios from "axios";
+import API from "./config";
 
-// // Search buses from backend
-// export const searchBuses = (form) => {
-//   return axios.post("http://localhost:8080/api/routes/search", form);
-  
-// };
-import axios from "axios";
-
-const BASE_URL = "http://localhost:8080/api/buses";
-
-// ✅ ADMIN: Add new bus
 export const addBus = (bus) => {
-  return axios.post(BASE_URL, bus);
+  return API.post("/buses", bus);
 };
 
-// ✅ ADMIN / USER: Get all buses
 export const getAllBuses = () => {
-  return axios.get(BASE_URL);
+  return API.get("/buses");
 };
 
-// ✅ USER: Search buses (routes search)
 export const searchBuses = (form) => {
-  return axios.post("http://localhost:8080/api/routes/search", form);
+  return API.post("/routes/search", form);
 };

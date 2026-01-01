@@ -1,7 +1,5 @@
-import axios from "axios";
-
-const API_URL = "http://localhost:8080/api";
+import API from "./config";
 
 export const adminLogin = (data) => {
-  return axios.post(`${API_URL}/auth/login`, data);
+  return API.post("/auth/login", data);
 };
