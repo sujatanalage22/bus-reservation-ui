@@ -26,7 +26,7 @@ export default function SeatSelection() {
 
     setLoading(true);
     axios
-      .get(`http://localhost:8080/api/seats/bus/${busId}`)
+      .get(`https://bus-reservation-backend-0w0f.onrender.com/api/seats/bus/${busId}`)
       .then(res => setSeats(res.data))
       .catch(err => {
         console.error("Seat fetch failed", err);
