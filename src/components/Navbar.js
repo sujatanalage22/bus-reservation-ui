@@ -13,7 +13,7 @@ export default function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li className={location.pathname === "/success" ? "active" : ""}>
-          <Link to="/success">My Bookings</Link>
+          <Link to="/my-bookings">My Bookings</Link>
         </li>
       </ul>
 
